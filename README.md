@@ -1,4 +1,4 @@
-![adbm logo](https://github.com/baikil/adbmanager/blob/main/adbm.png?raw=true)
+![adbm logo](adbm.png)
 # adbmanager
 
 Command line utility for adb (Android Debug Bridge).
