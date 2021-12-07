@@ -19,6 +19,6 @@ Command line utility for adb (Android Debug Bridge).
 
 ### Offline version ([adbm_offline.exe](https://github.com/baikil/adbmanager/blob/main/adbm_offline.exe?raw=true))
 
--10.6 MB
+-10.63 MB
 
 -No need for an internet connection
