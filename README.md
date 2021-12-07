@@ -13,7 +13,7 @@ Command line utility for adb (Android Debug Bridge).
 
 ### Standard version ([adbm.exe](https://github.com/baikil/adbmanager/blob/main/adbm.exe?raw=true))
 
--2.18 MB
+-2.19 MB
 
 -Require an internet connection
 
