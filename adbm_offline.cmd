@@ -1,14 +1,15 @@
 :::::::::::::::::::::::::::
 ::adb manager            ::
 ::Made by Baikil         ::
-::v1.1                   ::
+::v1.2                   ::
 :::::::::::::::::::::::::::
 :0
 call :ini
 title adb manager // menu
+mode 69, 16
 %logo%
 echo.
-echo [38;5;14m//[38;5;11madbm[38;5;14m//[0m
+echo [38;5;84m//[0madbm[38;5;84m//[0m
 echo.
 echo [38;5;15m1.[0m apk installer
 echo [38;5;15m2.[0m enable apk via adb
@@ -18,7 +19,7 @@ goto :%errorlevel%
 title adb manager // apk installer
 %logo%
 echo.
-echo [38;5;14m//[38;5;11mapk installer[38;5;14m//[0m
+echo [38;5;84m//[0mapk installer[38;5;84m//[0m
 echo.
 echo [38;5;15m1.[0m Shizuku
 echo [38;5;15m2.[0m DarQ (Require Shizuku)
@@ -46,7 +47,7 @@ exit /b
 title adb manager // adb enabler
 %logo%
 echo.
-echo [38;5;14m//[38;5;11madb enabler[38;5;14m//[0m
+echo [38;5;84m//[0madb enabler[38;5;84m//[0m
 echo.
 echo [38;5;15m1.[0m Shizuku
 echo [38;5;15m2.[0m Button Mapper
@@ -69,7 +70,7 @@ exit /b
 title adb manager // adb custom command
 %logo%
 echo.
-echo [38;5;14m//[38;5;11madb custom command[38;5;14m//[0m
+echo [0m//[38;5;84madb custom command[0m//
 echo.
 set /p "adbcommand=adb "
 adb %adbcommand%
@@ -90,9 +91,9 @@ call :logo
 exit /b
 :logo
 ::https://patorjk.com/software/taag/#p=display&f=Broadway%20KB&t=adb%20manager::
-set "logo1=echo [38;5;14m  __   ^ _^__  ^ _^__      [38;5;11m^ _^   ^    __   ^ _^   ^    __    __^   ^ _^___ ^ _^__  "
-set "logo2=echo [38;5;14m / /\  ^| ^| \ ^| ^|_)     [38;5;11m^| ^|\/^|  / /\  ^| ^|\ ^|  / /\  / /^`_ ^| ^|_  ^| ^|_) "
-set "logo3=echo [38;5;14m/_/--\ ^|_^|_/ ^|_^|_)     [38;5;11m^|_^|  ^| /_/--\ ^|_^| \^| /_/--\ \_\^_/ ^|_^|__ ^|_^| \ "
-set "logo4=echo [38;5;8madb manager v1.1[0m"
+set "logo1=echo [38;5;84m  __   ^ _^__  ^ _^__      [0m^ _^   ^    __   ^ _^   ^    __    __^   ^ _^___ ^ _^__  "
+set "logo2=echo [38;5;84m / /\  ^| ^| \ ^| ^|_)     [0m^| ^|\/^|  / /\  ^| ^|\ ^|  / /\  / /^`_ ^| ^|_  ^| ^|_) "
+set "logo3=echo [38;5;84m/_/--\ ^|_^|_/ ^|_^|_)     [0m^|_^|  ^| /_/--\ ^|_^| \^| /_/--\ \_\^_/ ^|_^|__ ^|_^| \ "
+set "logo4=echo [38;5;8madb manager v1.2 [Offline][0m"
 set "logo=cls&%logo1%&%logo2%&%logo3%&%logo4%"
 exit /b
