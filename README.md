@@ -3,7 +3,7 @@
 
 Command line utility for adb (Android Debug Bridge).
 
-### Features :
+### Features
 
 -Install apks directly from the exe
 
