@@ -1,4 +1,4 @@
-![adbm logo](https://myoctocat.com/assets/images/base-octocat.svg)
+![adbm logo](https://github.com/baikil/adbmanager/blob/main/adbm.png?raw=true)
 # adbmanager
 
 Command line utility for adb (Android Debug Bridge).
